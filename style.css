@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+
+#profile-image {
+    width: 200px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#welcome {
+    position: absolute;
+    background: linear-gradient(#624ccf 0%, #cf9d4c 100%);
+    height: 800px;
+    overflow: hidden;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#name {
+    font-size: 30px;
+    color: aqua;
+    font-family: 'Comic Neue', cursive;
+}
+
+#bio {
+    text-align: center;
+    padding: 50px;
+    font-size: 40px;
+}
+
+.line {
+    width: 100px;
+    height: 5px;
+    background-color: burlywood;
+    margin: 8px auto;
+}
+
+p {
+    font-size: 16px;
+    line-height: 2;
+    max-width: 500px;
+    margin: 10px auto;
+}
+
+.menu {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+    font-family: monospace;
+    list-style: none;
+}
+
+.links {
+    float: left;
+    color: yellow;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.links:hover {
+    background-color: orange;
+}
+
+.article:hover {
+    color:forestgreen;
+}
+
+.heading {
+    font-family: 'Libre Baskerville', serif;
+    color:darkblue;
+}
